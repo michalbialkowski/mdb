@@ -25,6 +25,60 @@
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
                                 <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
+                                <p>Create placeholders with the .placeholder class and a grid column class (e.g., <code>.col-6</code>) to set the <code>width</code>. They can replace the text inside an element or be added as a modifier class to an existing component.<br></p>
+                                <p>We apply additional styling to <code>.btn</code>s via <code>::before</code>&nbsp;to ensure the&nbsp;<code>height</code>&nbsp;is respected. You may extend this pattern for other situations as needed, or add a&nbsp;<code>&amp;nbsp;</code> within the element to reflect the height when actual text is rendered in its place.<br></p>
+                                <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xxl-3">
+                                    <div class="col">
+                                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/samples/matthew-henry-VviFtDJakYk-unsplash.jpeg?h=4c72ef708a7dfb839ad5862eda604a20">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><button class="btn btn-primary" type="button">Button</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card"><img class="card-img-top w-100 d-block" src="assets/img/samples/matthew-henry-VviFtDJakYk-unsplash.jpeg?h=4c72ef708a7dfb839ad5862eda604a20">
+                                            <div class="card-body">
+                                                <h5 class="card-title placeholder-glow"><span class="placeholder col-6"></span></h5>
+                                                <p class="card-text placeholder-glow"><span class="col-7 placeholder"></span><span>&nbsp;</span><span class="col-4 placeholder"></span><span>&nbsp;</span><span class="col-4 placeholder"></span><span>&nbsp;</span><span class="col-6 placeholder"></span><span>&nbsp;</span><span class="col-8 placeholder"></span></p><button class="btn btn-primary placeholder col-6" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="h4 mt-4">Width</h2>
+                                <p>You can change the <code>width</code>&nbsp;through grid column classes, width utilities, or inline styles.<br></p>
+                                <div class="bg-white p-4">
+                                    <div><span class="col-7 placeholder"></span></div>
+                                    <div><span class="w-75 placeholder"></span></div>
+                                    <div><span class="placeholder" style="width: 25%"></span></div>
+                                </div>
+                                <h2 class="h4 mt-4">Color</h2>
+                                <p>By default, the<strong>&nbsp;</strong><code>placeholder</code>&nbsp;uses <code>currentColor</code>. This can be overridden with a custom color or utility class.<br></p>
+                                <div class="bg-white p-4">
+                                    <div><span class="placeholder w-100"></span></div>
+                                    <div><span class="bg-primary placeholder w-100"></span></div>
+                                    <div><span class="bg-secondary placeholder w-100"></span></div>
+                                    <div><span class="bg-success placeholder w-100"></span></div>
+                                    <div><span class="bg-danger placeholder w-100"></span></div>
+                                    <div><span class="bg-warning placeholder w-100"></span></div>
+                                    <div><span class="bg-info placeholder w-100"></span></div>
+                                    <div><span class="bg-light placeholder w-100"></span></div>
+                                    <div><span class="bg-dark placeholder w-100"></span></div>
+                                </div>
+                                <h2 class="h4 mt-4">Sizing</h2>
+                                <p>The size of <code>.placeholders</code>&nbsp;are based on the typographic style of the parent element. Customize them with sizing modifiers: <code>.placeholder-lg</code>, <code>.placeholder-sm</code>, or <code>.placeholder-xs</code>.<br></p>
+                                <div class="bg-white p-4">
+                                    <div><span class="placeholder w-100"></span></div>
+                                    <div><span class="placeholder w-100 placeholder-lg"></span></div>
+                                    <div><span class="placeholder w-100 placeholder-sm"></span></div>
+                                    <div><span class="placeholder w-100 placeholder-xs"></span></div>
+                                </div>
+                                <h2 class="h4 mt-4">Animation</h2>
+                                <p>Animate placeholders with <code>.placeholder-glow</code>&nbsp;or&nbsp;<code>.placeholder-wave</code>&nbsp;to better convey the perception of something being <em>actively</em> loaded.<br></p>
+                                <div class="bg-white p-4">
+                                    <div class="placeholder-glow"><span class="placeholder w-100"></span></div>
+                                    <div class="placeholder-wave"><span class="placeholder w-100"></span></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -85,14 +139,14 @@
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-carousel.html">Carousel</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-close-button.html">Close button</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Collapse</a><small>Soon!</small></li>
-                                                <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Dropdowns</a><small>Soon!</small></li>
+                                                <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-dropdowns.html">Dropdowns</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-list-group.html">List group</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Modal</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Nav</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Navbar</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Offcanvas</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Pagination</a><small>Soon!</small></li>
-                                                <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Placeholders</a><small>Soon!</small></li>
+                                                <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-placeholders.html">Placeholders</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Popovers</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Progress</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Scrollspy</a><small>Soon!</small></li>
