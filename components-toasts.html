@@ -25,6 +25,110 @@
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
                                 <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
+                                <div>
+                                    <div class="toast fade show hide" role="alert" data-bs-autohide="false" id="toast-inline">
+                                        <div class="toast-header"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Live example</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row gy-4 justify-content-center">
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#toast-live" data-bs-toggle="toast">Launch toast</button>
+                                            <div class="toast-container position-fixed bottom-0 end-0 m-3">
+                                                <div class="toast fade hide" role="alert" id="toast-live">
+                                                    <div class="toast-header"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                                    <div class="toast-body" role="alert">
+                                                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Stacking</h1>
+                                <div class="toast-container position-static">
+                                    <div class="toast fade show hide" role="alert" id="toast-stacking-1">
+                                        <div class="toast-header"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade show hide" role="alert" id="toast-stacking-2">
+                                        <div class="toast-header"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Custom content</h1>
+                                <div>
+                                    <div class="toast fade show hide" role="alert" data-bs-autohide="false" id="toast-custom">
+                                        <div class="toast-body" role="alert">
+                                            <p>Hello, world! This is a toast message.<br></p>
+                                            <div class="mt-2 pt-2 border-top mx-n1"><button class="btn btn-primary btn-sm mx-1" type="button">Take action</button><button class="btn btn-dark btn-sm mx-1" type="button" data-bs-target="#toast-custom" data-bs-toggle="toast">Close</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Color schemes</h1>
+                                <div class="toast-container">
+                                    <div class="toast fade show hide" role="alert" id="toast-color-default">
+                                        <div class="toast-header"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-primary show bg-opacity-25 hide" role="alert" id="toast-color-primary">
+                                        <div class="toast-header text-white bg-primary bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-secondary show bg-opacity-25 hide" role="alert" id="toast-color-secondary">
+                                        <div class="toast-header text-white bg-secondary bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-success show bg-opacity-25 hide" role="alert" id="toast-color-success">
+                                        <div class="toast-header text-white bg-success bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-danger show bg-opacity-25 hide" role="alert" id="toast-color-danger">
+                                        <div class="toast-header text-white bg-danger bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-warning show bg-opacity-25 hide" role="alert" id="toast-color-warning">
+                                        <div class="toast-header text-black-50 bg-warning bg-opacity-50"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-info show bg-opacity-25 hide" role="alert" id="toast-color-info">
+                                        <div class="toast-header text-black-50 bg-info bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-light show bg-opacity-25 hide" role="alert" id="toast-color-light">
+                                        <div class="toast-header text-black-50 bg-light bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="toast fade bg-dark show bg-opacity-25 hide" role="alert" id="toast-color-dark">
+                                        <div class="toast-header text-white bg-dark bg-opacity-75"><img class="me-2"><strong class="me-auto">Title</strong><small>10 min ago</small><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
+                                        <div class="toast-body" role="alert">
+                                            <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +202,7 @@
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Scrollspy</a><small>Soon!</small></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-spinners.html">Spinners</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-tabs.html">Tabs</a><span class="badge bg-success">Available</span></li>
-                                                <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Toasts</a><small>Soon!</small></li>
+                                                <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-toasts.html">Toasts</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-tooltips.html">Tooltips</a><span class="badge bg-success">Available</span></li>
                                             </ul>
                                         </div>
@@ -173,7 +277,7 @@
     </div>
     <script src="assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
-    <script src="assets/js/bs-init.js?h=e2b0d57f2c4a9b0d13919304f87f79ae"></script>
+    <script src="assets/js/bs-init.js?h=6d290e610cd963b15b5bb62efc4066fb"></script>
     <script src="assets/js/mdb/mdb.min.js?h=ccbb146019ff028833871b5a5d61a2f4"></script>
     <script src="assets/js/custom/libs/jquery.fancybox.js?h=b63c7cca1b5e4bd57bd854c444b895c9"></script>
     <script src="assets/js/custom/libs/flickity.pkgd.min.js?h=8625a9d2a4f797e756dbd299c2d74fc2"></script>
