@@ -25,6 +25,60 @@
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
                                 <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row gy-4 justify-content-center">
+                                        <div class="col-auto"><a class="btn btn-primary" role="button" href="#collapse__1" data-mdb-toggle="collapse">Link with href</a></div>
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__1">Link with data-mdb-target</button></div>
+                                    </div>
+                                    <div id="collapse__1" class="mt-3 collapse">
+                                        <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Horizontal</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row gy-4">
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__2">Toggle with collapse</button></div>
+                                    </div>
+                                    <div class="mt-3" style="min-height: 240px;">
+                                        <div id="collapse__2" class="collapse collapse-horizontal">
+                                            <div style="width: 300px;">
+                                                <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Multiple targets</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row gy-4 justify-content-center">
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__3a">Toggle first element</button></div>
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__3b">Toggle second element</button></div>
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target=".multi-collapse">Toggle both elements</button></div>
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="row gy-4 row-cols-1 row-cols-md-2">
+                                            <div class="col">
+                                                <div id="collapse__3a" class="collapse multi-collapse">
+                                                    <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div id="collapse__3b" class="collapse multi-collapse">
+                                                    <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">With scroll</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row gy-4 justify-content-center">
+                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__4">Longer content</button></div>
+                                    </div>
+                                    <div id="collapse__4" class="mt-3 collapse scroll-section overflow-scroll" style="max-height: 160px;">
+                                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna. Integer ex ex, suscipit et aliquet a, mollis sed justo. Nulla consequat aliquet lacus, in fermentum massa accumsan vitae. Nullam fermentum, eros nec consequat sodales, ex lectus pretium metus, pretium auctor urna eros ac mi. Praesent eu augue quis purus molestie pulvinar. In commodo sit amet est eu pellentesque. Aenean luctus mauris tellus, sed vulputate augue tincidunt sit amet. In a leo nec purus viverra pellentesque. Etiam eu tortor aliquam, efficitur lacus ut, fermentum dui. Mauris lobortis turpis non eros eleifend, sed scelerisque quam congue.<br></p>
+                                        <p class="text-center mb-0">Pellentesque non nunc elit. Integer pharetra cursus purus, eu maximus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus tristique lobortis ex pretium tincidunt. Integer luctus ligula sit amet enim scelerisque varius. Curabitur dictum, nibh ac pharetra feugiat, nisl odio gravida urna, id laoreet dui ex bibendum ligula. Etiam id tellus efficitur, laoreet ante eu, aliquet nunc. Nunc in condimentum elit, ac aliquet ligula.<br></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -84,7 +138,7 @@
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-cards.html">Cards</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-carousel.html">Carousel</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-close-button.html">Close button</a><span class="badge bg-success">Available</span></li>
-                                                <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Collapse</a><small>Soon!</small></li>
+                                                <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-collapse.html">Collapse</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-dropdowns.html">Dropdowns</a><span class="badge bg-info">Almost done</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-list-group.html">List group</a><span class="badge bg-success">Available</span></li>
                                                 <li class="d-flex justify-content-between align-items-center py-1 opacity-50"><a class="link-dark" href="#!">Modal</a><small>Soon!</small></li>
