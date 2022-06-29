@@ -20,63 +20,57 @@
                     <div class="col-lg-8 col-xl-9 d-flex flex-column justify-content-between bg-light">
                         <div class="pb-5">
                             <div class="text-white bg-dark pt-5 pb-3 px-4 px-xxl-5">
-                                <p class="text-uppercase text-white-50 mb-0 small"><span>Components</span></p>
-                                <h1 class="mb-0">Collapse</h1>
+                                <p class="text-uppercase text-white-50 mb-0 small"><span>Forms</span></p>
+                                <h1 class="mb-0">File</h1>
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
                                 <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><a class="btn btn-primary" role="button" href="#collapse__1" data-mdb-toggle="collapse">Link with href</a></div>
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__1">Link with data-mdb-target</button></div>
-                                    </div>
-                                    <div id="collapse__1" class="mt-3 collapse">
-                                        <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
-                                    </div>
-                                </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Horizontal</h1>
-                                <div class="bg-white p-4">
-                                    <div class="row gy-4">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__2">Toggle with collapse</button></div>
-                                    </div>
-                                    <div class="mt-3" style="min-height: 240px;">
-                                        <div id="collapse__2" class="collapse collapse-horizontal">
-                                            <div style="width: 300px;">
-                                                <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
-                                            </div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-auto">
+                                            <form>
+                                                <div class="row gy-1 row-cols-1 flex-column">
+                                                    <div class="col-auto"><label class="form-label">Default file input example</label><input class="form-control" type="file"></div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Multiple targets</h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Disabled</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__3a">Toggle first element</button></div>
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__3b">Toggle second element</button></div>
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target=".multi-collapse">Toggle both elements</button></div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <div class="row gy-4 row-cols-1 row-cols-md-2">
-                                            <div class="col">
-                                                <div id="collapse__3a" class="collapse multi-collapse">
-                                                    <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-auto">
+                                            <form>
+                                                <div class="row gy-1 row-cols-1 flex-column">
+                                                    <div class="col-auto"><label class="form-label">Disabled file input example</label><input class="form-control" type="file" disabled=""></div>
                                                 </div>
-                                            </div>
-                                            <div class="col">
-                                                <div id="collapse__3b" class="collapse multi-collapse">
-                                                    <p class="text-center mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna.<br></p>
-                                                </div>
-                                            </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">With scroll</h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Sizing</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapse__4">Longer content</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-auto">
+                                            <form>
+                                                <div class="row gy-3 row-cols-1 flex-column">
+                                                    <div class="col-auto"><label class="form-label">Small file input example</label><input class="form-control form-control-sm" type="file"></div>
+                                                    <div class="col-auto"><label class="form-label">Large file input example</label><input class="form-control form-control-lg" type="file"></div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
-                                    <div id="collapse__4" class="mt-3 collapse scroll-section overflow-scroll" style="max-height: 160px;">
-                                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna. Integer ex ex, suscipit et aliquet a, mollis sed justo. Nulla consequat aliquet lacus, in fermentum massa accumsan vitae. Nullam fermentum, eros nec consequat sodales, ex lectus pretium metus, pretium auctor urna eros ac mi. Praesent eu augue quis purus molestie pulvinar. In commodo sit amet est eu pellentesque. Aenean luctus mauris tellus, sed vulputate augue tincidunt sit amet. In a leo nec purus viverra pellentesque. Etiam eu tortor aliquam, efficitur lacus ut, fermentum dui. Mauris lobortis turpis non eros eleifend, sed scelerisque quam congue.<br></p>
-                                        <p class="text-center mb-0">Pellentesque non nunc elit. Integer pharetra cursus purus, eu maximus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus tristique lobortis ex pretium tincidunt. Integer luctus ligula sit amet enim scelerisque varius. Curabitur dictum, nibh ac pharetra feugiat, nisl odio gravida urna, id laoreet dui ex bibendum ligula. Etiam id tellus efficitur, laoreet ante eu, aliquet nunc. Nunc in condimentum elit, ac aliquet ligula.<br></p>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Multiple example</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-sm-auto">
+                                            <form>
+                                                <div class="row gy-1 row-cols-1 flex-column">
+                                                    <div class="col-auto"><label class="form-label">Multiple file input example</label><input class="form-control" type="file" multiple=""></div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -128,8 +122,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="true" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
-                                    <div class="accordion-collapse collapse show item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
+                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-accordion.html">Accordion</a><span class="badge bg-success">Available</span></li>
@@ -162,8 +156,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
-                                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="true" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
+                                    <div class="accordion-collapse collapse show item-4" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="forms-overview.html">Overview</a><span class="badge bg-success">Available</span></li>
