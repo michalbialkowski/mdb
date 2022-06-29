@@ -20,64 +20,242 @@
                     <div class="col-lg-8 col-xl-9 d-flex flex-column justify-content-between bg-light">
                         <div class="pb-5">
                             <div class="text-white bg-dark pt-5 pb-3 px-4 px-xxl-5">
-                                <p class="text-uppercase text-white-50 mb-0 small"><span>Components</span></p>
-                                <h1 class="mb-0">Alerts</h1>
+                                <p class="text-uppercase text-white-50 mb-0 small"><span>Forms</span></p>
+                                <h1 class="mb-0">Input group</h1>
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
-                                <h1 class="display-6 border-bottom pb-2 mb-3">Basic examples</h1>
-                                <div class="row gy-3 row-cols-1">
-                                    <div class="col">
-                                        <div class="alert alert-primary mb-0" role="alert"><span><strong>Primary</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-secondary mb-0" role="alert"><span><strong>Secondary</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-success mb-0" role="alert"><span><strong>Success</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-info mb-0" role="alert"><span><strong>Info</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-warning mb-0" role="alert"><span><strong>Warning</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-danger mb-0" role="alert"><span><strong>Danger</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-light mb-0" role="alert"><span><strong>Light</strong> alert</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-dark mb-0" role="alert"><span><strong>Dark</strong> alert</span></div>
-                                    </div>
-                                </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Additional content example</h1>
-                                <div class="alert alert-info mb-0" role="alert">
-                                    <h3>Well done!</h3>
-                                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.<br></p>
-                                    <hr>
-                                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.<br></p>
-                                </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Icons</h1>
-                                <div class="row gy-3 row-cols-1">
-                                    <div class="col">
-                                        <div class="alert alert-primary d-flex align-items-center mb-0" role="alert"><i class="fas fa-question-circle fs-5 me-2"></i><span><strong>Primary</strong> alert with icon</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-success d-flex align-items-center mb-0" role="alert"><i class="fas fa-check-circle fs-5 me-2"></i><span><strong>Success</strong> alert&nbsp;with icon</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-info d-flex align-items-center mb-0" role="alert"><i class="fas fa-info-circle fs-5 me-2"></i><span><strong>Info</strong> alert&nbsp;with icon</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-warning d-flex align-items-center mb-0" role="alert"><i class="fas fa-exclamation-circle fs-5 me-2"></i><span><strong>Warning</strong> alert&nbsp;with icon</span></div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="alert alert-danger d-flex align-items-center mb-0" role="alert"><i class="fas fa-times-circle fs-5 me-2"></i><span><strong>Danger</strong> alert&nbsp;with icon</span></div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">@</span><input class="form-control" type="text" placeholder="Username"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text" placeholder="Recipient's username"><span class="input-group-text">@</span></div>
+                                                    </div>
+                                                    <div class="col"><label class="form-label">Your vanity URL</label>
+                                                        <div class="input-group"><span class="input-group-text">https://example.com/users/<br></span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">$<br></span><input class="form-control" type="text"><span class="input-group-text">.00<br></span></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text" placeholder="Username"><span class="input-group-text">@<br></span><input class="form-control" type="text" placeholder="Server"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">With textarea</span><textarea class="form-control"></textarea></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Dismissing</h1>
-                                <div class="alert alert-danger d-flex align-items-center alert-dismissible mb-0" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><span><strong>Holy guacamole!</strong>&nbsp;You should check in on some of those fields below.</span></div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Sizing</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group input-group-sm"><span class="input-group-text">Small</span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">Default</span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group input-group-lg"><span class="input-group-text">Large</span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">No border</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text border-0">@</span><input class="form-control" type="text" placeholder="Username"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text" placeholder="Recipient's username"><span class="input-group-text border-0">@</span></div>
+                                                    </div>
+                                                    <div class="col"><label class="form-label text-center d-block">Your vanity URL</label>
+                                                        <div class="input-group"><span class="input-group-text border-0">https://example.com/users/<br></span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text border-0">$<br></span><input class="form-control" type="text"><span class="input-group-text border-0">.00<br></span></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text" placeholder="Username"><span class="input-group-text border-0">@<br></span><input class="form-control" type="text" placeholder="Server"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text border-0">With textarea</span><textarea class="form-control"></textarea></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Checkboxes and radios</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text"><input type="checkbox" class="form-check-input" checked=""></span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text"><input type="radio" class="form-check-input" checked=""></span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Multiple inputs</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">First and last name</span><input class="form-control" type="text"><input class="form-control" type="text"></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Multiple addons</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">$</span><span class="input-group-text">0.00</span><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text"><span class="input-group-text">$</span><span class="input-group-text">0.00</span></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Button addons</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><button class="btn btn-outline-primary" type="button">Button</button><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text"><button class="btn btn-outline-primary" type="button">Button</button></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><button class="btn btn-outline-primary" type="button">Button</button><button class="btn btn-outline-primary" type="button">Button</button><input class="form-control" type="text"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text"><button class="btn btn-outline-primary" type="button">Button</button><button class="btn btn-outline-primary" type="button">Button</button></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Button with dropdowns</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group">
+                                                            <div class="dropdown"><button class="rounded-0 rounded-start btn btn-primary dropdown-toggle shadow-none" aria-expanded="false" data-bs-toggle="dropdown" type="button">Dropdown </button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div><input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text">
+                                                            <div class="dropdown"><button class="rounded-0 rounded-end btn btn-primary dropdown-toggle shadow-none" aria-expanded="false" data-bs-toggle="dropdown" type="button">Dropdown </button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group">
+                                                            <div class="dropdown"><button class="rounded-0 rounded-start btn btn-primary dropdown-toggle shadow-none" aria-expanded="false" data-bs-toggle="dropdown" type="button">Dropdown </button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div><input class="form-control" type="text">
+                                                            <div class="dropdown"><button class="rounded-0 rounded-end btn btn-primary dropdown-toggle shadow-none" aria-expanded="false" data-bs-toggle="dropdown" type="button">Dropdown </button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Segmented buttons</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group">
+                                                            <div class="btn-group shadow-none"><button class="btn btn-outline-primary rounded-0 rounded-start" type="button">Action</button><button class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split rounded-0" data-bs-toggle="dropdown" aria-expanded="false" type="button"></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div><input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="text">
+                                                            <div class="btn-group shadow-none"><button class="btn btn-outline-primary rounded-0" type="button">Action</button><button class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split rounded-0 rounded-end" data-bs-toggle="dropdown" aria-expanded="false" type="button"></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">File input</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="input-group"><span class="input-group-text">Upload</span><input class="form-control" type="file"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="file"><span class="input-group-text">Upload</span></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><button class="btn btn-outline-primary" type="button">Button</button><input class="form-control" type="file"></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="input-group"><input class="form-control" type="file"><button class="btn btn-outline-primary" type="button">Button</button></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="text-white bg-dark p-3">
@@ -127,8 +305,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="true" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
-                                    <div class="accordion-collapse collapse show item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
+                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-accordion.html">Accordion</a><span class="badge bg-success">Available</span></li>
@@ -161,8 +339,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
-                                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="true" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
+                                    <div class="accordion-collapse collapse show item-4" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="forms-overview.html">Overview</a><span class="badge bg-success">Available</span></li>
