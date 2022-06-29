@@ -20,153 +20,246 @@
                     <div class="col-lg-8 col-xl-9 d-flex flex-column justify-content-between bg-light">
                         <div class="pb-5">
                             <div class="text-white bg-dark pt-5 pb-3 px-4 px-xxl-5">
-                                <p class="text-uppercase text-white-50 mb-0 small"><span>Components</span></p>
-                                <h1 class="mb-0">Modal</h1>
+                                <p class="text-uppercase text-white-50 mb-0 small"><span>Forms</span></p>
+                                <h1 class="mb-0">Input fields</h1>
                             </div>
                             <div class="pt-5 px-4 px-xxl-5">
                                 <h1 class="display-6 border-bottom pb-2 mb-3">Basic example</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-default" data-bs-toggle="modal">Toggle Modal</button></div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-default">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Label</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Small</h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Sizing</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-small" data-bs-toggle="modal">Toggle small Modal</button></div>
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-large" data-bs-toggle="modal">Toggle large Modal</button></div>
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-xlarge" data-bs-toggle="modal">Toggle extra large Modal</button></div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-small">
-                                    <div class="modal-dialog modal-sm" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control form-control-lg" type="text"><label class="form-label">Form control lg</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Form control default</label></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control form-control-sm" type="text"><label class="form-label">Form control sm</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-large">
-                                    <div class="modal-dialog modal-lg" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-xlarge">
-                                    <div class="modal-dialog modal-xl" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Vertically centered</h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Disabled</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-centered" data-bs-toggle="modal">Toggle vertically centered Modal</button></div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-centered">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text" disabled=""><label class="form-label">Disabled</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Fullscreen modal</h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Readonly</h1>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-fullscreen" data-bs-toggle="modal">Toggle fullscreen Modal</button></div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-fullscreen">
-                                    <div class="modal-dialog modal-dialog-centered modal-fullscreen" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text" readonly="" value="Readonly input here…"><label class="form-label">Readonly</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Scrolling long content&nbsp;<br></h1>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Types</h1>
+                                <h2 class="h4 mt-4">Text</h2>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-scrollable" data-bs-toggle="modal">Toggle scrollable Modal</button></div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-scrollable">
-                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut pulvinar neque, sed rutrum urna. Nullam varius, ligula in convallis suscipit, mauris lorem sollicitudin ligula, nec hendrerit nibh ex quis neque. Phasellus vehicula interdum odio, quis eleifend quam pulvinar sed. Vivamus et sapien porttitor, vestibulum nibh ac, tincidunt urna. Integer ex ex, suscipit et aliquet a, mollis sed justo. Nulla consequat aliquet lacus, in fermentum massa accumsan vitae. Nullam fermentum, eros nec consequat sodales, ex lectus pretium metus, pretium auctor urna eros ac mi. Praesent eu augue quis purus molestie pulvinar. In commodo sit amet est eu pellentesque. Aenean luctus mauris tellus, sed vulputate augue tincidunt sit amet. In a leo nec purus viverra pellentesque. Etiam eu tortor aliquam, efficitur lacus ut, fermentum dui. Mauris lobortis turpis non eros eleifend, sed scelerisque quam congue.<br></p>
-                                                <p>Pellentesque non nunc elit. Integer pharetra cursus purus, eu maximus augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus tristique lobortis ex pretium tincidunt. Integer luctus ligula sit amet enim scelerisque varius. Curabitur dictum, nibh ac pharetra feugiat, nisl odio gravida urna, id laoreet dui ex bibendum ligula. Etiam id tellus efficitur, laoreet ante eu, aliquet nunc. Nunc in condimentum elit, ac aliquet ligula.<br></p>
-                                                <p>Ut ultrices turpis augue, a elementum orci iaculis at. Sed nec ante vitae ligula ultrices porttitor. Donec quis auctor turpis. Phasellus id lorem pretium, vestibulum augue vitae, laoreet diam. Morbi dapibus dignissim mollis. Suspendisse massa neque, egestas sed fringilla in, laoreet sit amet lectus. Duis interdum magna felis, nec pharetra est ornare at. Aenean vulputate gravida eros vel interdum. Praesent nec ante massa. Donec scelerisque orci enim, ut commodo sem tempus sit amet. Integer non nibh eu augue cursus facilisis. Sed egestas enim nisi, quis mollis nulla maximus eu.<br></p>
-                                                <p>Nullam auctor iaculis neque, sed hendrerit risus rhoncus ac. Morbi scelerisque laoreet sagittis. Proin dui lacus, fermentum non urna vel, semper gravida metus. Morbi ut nulla felis. In hac habitasse platea dictumst. Nunc posuere dui at arcu facilisis ullamcorper. Nulla lobortis ex in tellus laoreet, at ullamcorper libero scelerisque. Maecenas congue dolor pretium eros interdum, in rutrum tellus dictum. Ut vel mi iaculis, volutpat mi porta, fermentum massa. Nullam pulvinar aliquet porttitor.<br></p>
-                                                <p class="mb-0">Aenean facilisis posuere risus, sed luctus libero hendrerit sed. Morbi imperdiet nibh suscipit viverra rhoncus. Sed eget tristique lectus. Nulla ac metus mauris. Nulla ac tortor dui. Phasellus ut turpis quis tortor elementum suscipit in eget urna. Praesent metus ex, sodales ut vulputate vel, cursus ut ante. Pellentesque porta neque facilisis, dictum urna in, interdum eros. In sit amet gravida sem. Donec eu sapien a risus congue gravida ac non purus. Sed velit dui, tempor sit amet tincidunt nec, dignissim et dui. Donec congue dictum nibh, sit amet pharetra arcu sagittis non. Praesent vehicula dapibus mauris non euismod. Sed tincidunt erat mollis, lacinia lectus quis, volutpat nunc. Aenean finibus est ac lorem gravida finibus.<br></p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Text input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
-                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Static backdrop</h1>
+                                <h2 class="h4 mt-4">E-mail</h2>
                                 <div class="bg-white p-4">
-                                    <div class="row gy-4 justify-content-center">
-                                        <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#modal-static" data-bs-toggle="modal">Toggle static backdrop Modal</button></div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="email"><label class="form-label">E-mail input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="modal fade" role="dialog" tabindex="-1" id="modal-static" data-bs-backdrop="static" data-bs-keyboard="false">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Modal Title</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>The content of your modal.</p>
-                                            </div>
-                                            <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                                <h2 class="h4 mt-4">Password</h2>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="password"><label class="form-label">Password input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="h4 mt-4">Number</h2>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="number"><label class="form-label">Number input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="h4 mt-4">Phone number</h2>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="tel"><label class="form-label">Phone number input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="h4 mt-4">URL</h2>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="url"><label class="form-label">URL input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="h4 mt-4">Textarea</h2>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><textarea class="form-control"></textarea><label class="form-label">Textarea input</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Text</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Example label</label></div>
+                                                        <p class="form-text mb-0">We'll never share your email with anyone else.<br></p>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Helper text</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Example label</label>
+                                                            <p class="form-helper mb-0">We'll never share your email with anyone else.<br></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Character counter</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text" data-mdb-showcounter="true" maxlength="20"><label class="form-label">Example label</label>
+                                                            <div class="form-helper"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Icons</h1>
+                                <div class="bg-white p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="trailing">
+                                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                                <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM232 152C232 138.8 242.8 128 256 128s24 10.75 24 24v128c0 13.25-10.75 24-24 24S232 293.3 232 280V152zM256 400c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 385.9 273.4 400 256 400z"></path>
+                                                            </svg><input class="form-control" type="text"><label class="form-label">Example label</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1 class="display-6 border-bottom pb-2 mb-3 mt-5">Dark background</h1>
+                                <div class="bg-dark p-4">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-8 col-lg-10 col-xl-8 col-xxl-6">
+                                            <form>
+                                                <div class="row gy-4 row-cols-1 justify-content-between align-items-center">
+                                                    <div class="col">
+                                                        <div class="form-outline"><input class="form-control" type="text"><label class="form-label">Label</label></div>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -219,8 +312,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="true" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
-                                    <div class="accordion-collapse collapse show item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3"><span>Components</span></button></h2>
+                                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="components-accordion.html">Accordion</a><span class="badge bg-success">Available</span></li>
@@ -253,8 +346,8 @@
                                     </div>
                                 </div>
                                 <div class="accordion-item rounded-0">
-                                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
-                                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                                    <h2 class="accordion-header" role="tab"><button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="true" aria-controls="accordion-1 .item-4"><span>Forms</span></button></h2>
+                                    <div class="accordion-collapse collapse show item-4" role="tabpanel" data-bs-parent="#accordion-1">
                                         <div class="accordion-body">
                                             <ul class="list-unstyled my-n1">
                                                 <li class="d-flex justify-content-between align-items-center py-1"><a class="fw-bold" href="forms-overview.html">Overview</a><span class="badge bg-success">Available</span></li>
